@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <title>Quiz</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+</head>
+<body>
+    <section class="content">
+    <div id="start-button">
+        <button onclick="startQuiz()">Begin Quiz</button>
+      </div>
+    <div id="score"></div>
+    <div id="timer">Time remaining: 60 seconds</div>
+    <div id="quiz" style="display: none;">
+        <div id="question"></div>
+        <div id="choices">
+          <button id="choice0" onclick="checkAnswer(this.innerText)"></button>
+          <button id="choice1" onclick="checkAnswer(this.innerText)"></button>
+          <button id="choice2" onclick="checkAnswer(this.innerText)"></button>
+          <button id="choice3" onclick="checkAnswer(this.innerText)"></button>
+        </div>
+      </div>
+      <div id="high-scores-button">
+        <button onclick="showHighScores()">View High Scores</button>
+      </div>
+      <div id="high-scores" style="display: none;">
+        <ol></ol>
+      </div>
+    </section>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
