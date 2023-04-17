@@ -1,1 +1,2 @@
 # MultipleChoiceQuiz
+I built a coding quiz that's timed and has multiple-choice questions. The quiz runs in the browser and features HTML and CSS elements that are updated dynamically using JavaScript code. 
